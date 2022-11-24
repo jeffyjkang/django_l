@@ -23,3 +23,6 @@ python manage.py migrate ->
 runs all migrations in the project to the current state,
 can also run only migrations in specific app to specific number:
   python manage.py migrate <appname> <number>
+
+create admin user
+python manage.py createsuperuser
